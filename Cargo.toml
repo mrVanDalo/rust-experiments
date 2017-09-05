@@ -1,0 +1,10 @@
+[package]
+name = "experiments"
+version = "0.1.0"
+authors = ["Ingolf Wagner <contact@ingolf-wagner.de>"]
+
+[dependencies]
+
+[lib]
+name = "function_pointer"
+path = "src/bin/function_pointers.rs"
