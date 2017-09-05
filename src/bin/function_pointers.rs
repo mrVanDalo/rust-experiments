@@ -2,7 +2,7 @@
 /**
  * this module should show how easy it is to return a closure
  */
-mod function_pointers {
+pub mod function_pointers {
 
     /**
      * supported Engines
@@ -46,7 +46,7 @@ mod function_pointers {
 }
 
 #[cfg(test)]
-mod function_pointer_tests {
+pub mod function_pointer_tests {
 
     use function_pointers::*;
 
